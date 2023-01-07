@@ -76,6 +76,18 @@
         }
 
 
+        div{
+            margin: 10px;
+        }
+
+        h3::before{
+            content: "* ";
+        }
+
+        .special::after{
+            content: " - Special Heading";
+        }
+
 
     </style>
 
@@ -89,12 +101,14 @@
     </h1>
 
     <div class="box">
+
         <div class="container">
             Emon
         </div>
         <div class="container">
             Emon
         </div>
+
     </div>
 
 
@@ -121,10 +135,25 @@
         <li>item6</li>
         <li>item7</li>
     </ul>
-
     <!-- pseudo class completed -->
 
+
+    <!-- pseudo element start -->
     
+    <div >
+
+        <h3>heading- 1</h3>
+        <h3>heading- 2</h3>
+        <h3 class="special">heading- 3</h3>
+        <h3>heading- 4</h3>
+        <h3>heading- 5</h3>
+        <h3>heading- 6</h3>
+        <h3 class="special">heading- 7</h3>
+
+    </div>
+    
+
+    <!-- pseudo element start -->
     
 
 </body>

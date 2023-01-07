@@ -5,10 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Position </title>
+
+    <style>
+
+        section div{
+            width: 180px;
+        }
+
+        .swimming{
+            position: relative;
+            width: 1000px;
+            top: 100px;
+            left: 200px;
+        }
+
+        #boy{
+            position: absolute;
+            top: -20px;
+            z-index: 110;
+        }
+
+        #ring{
+            position: absolute;
+            z-index: 10;
+        }
+
+        #water{
+            position: absolute;
+            z-index: -1;
+        }
+
+
+    </style>
+
 </head>
 <body>
     
-    
+    <section>
+        <h1>Welcome to my website</h1>
+        <h1> i am Learning position </h1>
+        <h2>i have just started the learning phase and i am enjoying it</h1>
+    </section>
+
+    <section class="swimming">
+
+        <div id="boy"><img  src="./image/boy.svg" alt=""></div>
+        <div id="ring"><img  src="./image/ring.svg" alt=""></div>
+        <div id="water"><img  src="./image/water.svg" alt=""></div>
+
+    </section>
 
 </body>
 </html>
